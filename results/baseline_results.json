@@ -1,0 +1,145 @@
+{
+  "binary": {
+    "LogisticRegression": {
+      "accuracy": 0.7411111111111112,
+      "macro_f1": 0.7067690621084661,
+      "confusion_matrix": [
+        [
+          975,
+          1
+        ],
+        [
+          465,
+          359
+        ]
+      ],
+      "train_seconds": 0.008549699909053743,
+      "predict_seconds": 0.0002343000378459692,
+      "num_features_used": 6
+    },
+    "SVM": {
+      "accuracy": 0.9833333333333333,
+      "macro_f1": 0.9831649831649831,
+      "confusion_matrix": [
+        [
+          975,
+          1
+        ],
+        [
+          29,
+          795
+        ]
+      ],
+      "train_seconds": 0.1090216999873519,
+      "predict_seconds": 0.05251239996869117,
+      "num_features_used": 6
+    },
+    "KNN": {
+      "accuracy": 0.995,
+      "macro_f1": 0.9949682424661079,
+      "confusion_matrix": [
+        [
+          967,
+          9
+        ],
+        [
+          0,
+          824
+        ]
+      ],
+      "train_seconds": 0.005384300020523369,
+      "predict_seconds": 0.0065617000218480825,
+      "num_features_used": 6
+    }
+  },
+  "multiclass": {
+    "DecisionTree": {
+      "accuracy": 0.8276699029126213,
+      "macro_f1": 0.8309198330208792,
+      "confusion_matrix": [
+        [
+          169,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          151,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          163,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          0,
+          97,
+          67
+        ],
+        [
+          0,
+          0,
+          0,
+          68,
+          102
+        ]
+      ],
+      "train_seconds": 0.028676999965682626,
+      "predict_seconds": 0.00036529998760670424,
+      "num_features_used": 6
+    },
+    "RandomForest": {
+      "accuracy": 0.8118932038834952,
+      "macro_f1": 0.8141468971424974,
+      "confusion_matrix": [
+        [
+          169,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          151,
+          0,
+          0,
+          0
+        ],
+        [
+          5,
+          1,
+          164,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          93,
+          70
+        ],
+        [
+          0,
+          0,
+          0,
+          78,
+          92
+        ]
+      ],
+      "train_seconds": 0.40968669997528195,
+      "predict_seconds": 0.01133450004272163,
+      "num_features_used": 6
+    }
+  }
+}

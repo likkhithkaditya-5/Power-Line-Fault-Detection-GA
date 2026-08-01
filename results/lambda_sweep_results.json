@@ -1,0 +1,435 @@
+{
+  "LogisticRegression": [
+    {
+      "lambda": 0.0,
+      "accuracy": 0.7477777777777778,
+      "macro_f1": 0.7155352823970225,
+      "num_features_used": 3,
+      "selected_features": [
+        "Ia",
+        "Ic",
+        "Vc"
+      ],
+      "hyperparameters": {
+        "C": 42.25542800781904
+      }
+    },
+    {
+      "lambda": 0.02,
+      "accuracy": 0.7466666666666667,
+      "macro_f1": 0.7140404468327053,
+      "num_features_used": 2,
+      "selected_features": [
+        "Ia",
+        "Ic"
+      ],
+      "hyperparameters": {
+        "C": 35.18509088281435
+      }
+    },
+    {
+      "lambda": 0.05,
+      "accuracy": 0.7466666666666667,
+      "macro_f1": 0.7140404468327053,
+      "num_features_used": 2,
+      "selected_features": [
+        "Ia",
+        "Ic"
+      ],
+      "hyperparameters": {
+        "C": 35.18509088281435
+      }
+    },
+    {
+      "lambda": 0.1,
+      "accuracy": 0.7466666666666667,
+      "macro_f1": 0.7140404468327053,
+      "num_features_used": 2,
+      "selected_features": [
+        "Ia",
+        "Ic"
+      ],
+      "hyperparameters": {
+        "C": 42.25542800781904
+      }
+    },
+    {
+      "lambda": 0.2,
+      "accuracy": 0.7466666666666667,
+      "macro_f1": 0.7140404468327053,
+      "num_features_used": 2,
+      "selected_features": [
+        "Ia",
+        "Ic"
+      ],
+      "hyperparameters": {
+        "C": 2.2712510526019614
+      }
+    },
+    {
+      "lambda": 0.3,
+      "accuracy": 0.7466666666666667,
+      "macro_f1": 0.7140404468327053,
+      "num_features_used": 2,
+      "selected_features": [
+        "Ia",
+        "Ic"
+      ],
+      "hyperparameters": {
+        "C": 39.73120275581169
+      }
+    }
+  ],
+  "SVM": [
+    {
+      "lambda": 0.0,
+      "accuracy": 0.9955555555555555,
+      "macro_f1": 0.9955269278940777,
+      "num_features_used": 5,
+      "selected_features": [
+        "Ib",
+        "Ic",
+        "Va",
+        "Vb",
+        "Vc"
+      ],
+      "hyperparameters": {
+        "C": 37.792652165819625,
+        "gamma": 2.543467052302452
+      }
+    },
+    {
+      "lambda": 0.02,
+      "accuracy": 0.9916666666666667,
+      "macro_f1": 0.9915994597519228,
+      "num_features_used": 2,
+      "selected_features": [
+        "Ia",
+        "Ib"
+      ],
+      "hyperparameters": {
+        "C": 39.90119189417601,
+        "gamma": 4.03448646204844
+      }
+    },
+    {
+      "lambda": 0.05,
+      "accuracy": 0.9916666666666667,
+      "macro_f1": 0.9915994597519228,
+      "num_features_used": 2,
+      "selected_features": [
+        "Ia",
+        "Ib"
+      ],
+      "hyperparameters": {
+        "C": 39.90119189417601,
+        "gamma": 4.03448646204844
+      }
+    },
+    {
+      "lambda": 0.1,
+      "accuracy": 0.9916666666666667,
+      "macro_f1": 0.9915994597519228,
+      "num_features_used": 2,
+      "selected_features": [
+        "Ia",
+        "Ib"
+      ],
+      "hyperparameters": {
+        "C": 34.850544878865136,
+        "gamma": 4.047642062476628
+      }
+    },
+    {
+      "lambda": 0.2,
+      "accuracy": 0.9916666666666667,
+      "macro_f1": 0.9915994597519228,
+      "num_features_used": 2,
+      "selected_features": [
+        "Ia",
+        "Ib"
+      ],
+      "hyperparameters": {
+        "C": 38.70378631883326,
+        "gamma": 5.0
+      }
+    },
+    {
+      "lambda": 0.3,
+      "accuracy": 0.9738888888888889,
+      "macro_f1": 0.9737703616868696,
+      "num_features_used": 2,
+      "selected_features": [
+        "Ia",
+        "Vb"
+      ],
+      "hyperparameters": {
+        "C": 43.38693755268012,
+        "gamma": 5.0
+      }
+    }
+  ],
+  "KNN": [
+    {
+      "lambda": 0.0,
+      "accuracy": 0.9961111111111111,
+      "macro_f1": 0.9960850002376964,
+      "num_features_used": 5,
+      "selected_features": [
+        "Ia",
+        "Ib",
+        "Va",
+        "Vb",
+        "Vc"
+      ],
+      "hyperparameters": {
+        "n_neighbors": 3
+      }
+    },
+    {
+      "lambda": 0.02,
+      "accuracy": 0.9905555555555555,
+      "macro_f1": 0.9904903942104526,
+      "num_features_used": 2,
+      "selected_features": [
+        "Ia",
+        "Ib"
+      ],
+      "hyperparameters": {
+        "n_neighbors": 3
+      }
+    },
+    {
+      "lambda": 0.05,
+      "accuracy": 0.9905555555555555,
+      "macro_f1": 0.9904903942104526,
+      "num_features_used": 2,
+      "selected_features": [
+        "Ia",
+        "Ib"
+      ],
+      "hyperparameters": {
+        "n_neighbors": 3
+      }
+    },
+    {
+      "lambda": 0.1,
+      "accuracy": 0.9905555555555555,
+      "macro_f1": 0.9904903942104526,
+      "num_features_used": 2,
+      "selected_features": [
+        "Ia",
+        "Ib"
+      ],
+      "hyperparameters": {
+        "n_neighbors": 3
+      }
+    },
+    {
+      "lambda": 0.2,
+      "accuracy": 0.9905555555555555,
+      "macro_f1": 0.9904903942104526,
+      "num_features_used": 2,
+      "selected_features": [
+        "Ia",
+        "Ib"
+      ],
+      "hyperparameters": {
+        "n_neighbors": 3
+      }
+    },
+    {
+      "lambda": 0.3,
+      "accuracy": 0.9905555555555555,
+      "macro_f1": 0.9904903942104526,
+      "num_features_used": 2,
+      "selected_features": [
+        "Ia",
+        "Ib"
+      ],
+      "hyperparameters": {
+        "n_neighbors": 3
+      }
+    }
+  ],
+  "DecisionTree": [
+    {
+      "lambda": 0.0,
+      "accuracy": 0.7864077669902912,
+      "macro_f1": 0.789694265663581,
+      "num_features_used": 4,
+      "selected_features": [
+        "Ib",
+        "Ic",
+        "Va",
+        "Vc"
+      ],
+      "hyperparameters": {
+        "max_depth": 23
+      }
+    },
+    {
+      "lambda": 0.02,
+      "accuracy": 0.7888349514563107,
+      "macro_f1": 0.7911266595918678,
+      "num_features_used": 3,
+      "selected_features": [
+        "Ib",
+        "Ic",
+        "Vc"
+      ],
+      "hyperparameters": {
+        "max_depth": 21
+      }
+    },
+    {
+      "lambda": 0.05,
+      "accuracy": 0.7888349514563107,
+      "macro_f1": 0.7911266595918678,
+      "num_features_used": 3,
+      "selected_features": [
+        "Ib",
+        "Ic",
+        "Vc"
+      ],
+      "hyperparameters": {
+        "max_depth": 21
+      }
+    },
+    {
+      "lambda": 0.1,
+      "accuracy": 0.7888349514563107,
+      "macro_f1": 0.7911266595918678,
+      "num_features_used": 3,
+      "selected_features": [
+        "Ib",
+        "Ic",
+        "Vc"
+      ],
+      "hyperparameters": {
+        "max_depth": 21
+      }
+    },
+    {
+      "lambda": 0.2,
+      "accuracy": 0.7888349514563107,
+      "macro_f1": 0.7911266595918678,
+      "num_features_used": 3,
+      "selected_features": [
+        "Ib",
+        "Ic",
+        "Vc"
+      ],
+      "hyperparameters": {
+        "max_depth": 21
+      }
+    },
+    {
+      "lambda": 0.3,
+      "accuracy": 0.7815533980582524,
+      "macro_f1": 0.7826541797801427,
+      "num_features_used": 2,
+      "selected_features": [
+        "Ib",
+        "Ic"
+      ],
+      "hyperparameters": {
+        "max_depth": 21
+      }
+    }
+  ],
+  "RandomForest": [
+    {
+      "lambda": 0.0,
+      "accuracy": 0.8106796116504854,
+      "macro_f1": 0.8128102414140848,
+      "num_features_used": 5,
+      "selected_features": [
+        "Ia",
+        "Ib",
+        "Ic",
+        "Vb",
+        "Vc"
+      ],
+      "hyperparameters": {
+        "n_estimators": 91,
+        "max_depth": 22
+      }
+    },
+    {
+      "lambda": 0.02,
+      "accuracy": 0.808252427184466,
+      "macro_f1": 0.8105060037498649,
+      "num_features_used": 4,
+      "selected_features": [
+        "Ib",
+        "Ic",
+        "Va",
+        "Vc"
+      ],
+      "hyperparameters": {
+        "n_estimators": 88,
+        "max_depth": 24
+      }
+    },
+    {
+      "lambda": 0.05,
+      "accuracy": 0.8191747572815534,
+      "macro_f1": 0.8214064309999456,
+      "num_features_used": 4,
+      "selected_features": [
+        "Ia",
+        "Ib",
+        "Ic",
+        "Vb"
+      ],
+      "hyperparameters": {
+        "n_estimators": 73,
+        "max_depth": 24
+      }
+    },
+    {
+      "lambda": 0.1,
+      "accuracy": 0.7924757281553398,
+      "macro_f1": 0.7950057269188275,
+      "num_features_used": 3,
+      "selected_features": [
+        "Ib",
+        "Ic",
+        "Vc"
+      ],
+      "hyperparameters": {
+        "n_estimators": 18,
+        "max_depth": 20
+      }
+    },
+    {
+      "lambda": 0.2,
+      "accuracy": 0.7779126213592233,
+      "macro_f1": 0.7795691416857906,
+      "num_features_used": 2,
+      "selected_features": [
+        "Ib",
+        "Ic"
+      ],
+      "hyperparameters": {
+        "n_estimators": 80,
+        "max_depth": 13
+      }
+    },
+    {
+      "lambda": 0.3,
+      "accuracy": 0.7779126213592233,
+      "macro_f1": 0.7795691416857906,
+      "num_features_used": 2,
+      "selected_features": [
+        "Ib",
+        "Ic"
+      ],
+      "hyperparameters": {
+        "n_estimators": 80,
+        "max_depth": 13
+      }
+    }
+  ]
+}

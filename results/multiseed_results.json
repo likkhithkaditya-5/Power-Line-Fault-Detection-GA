@@ -1,0 +1,467 @@
+{
+  "LogisticRegression": {
+    "per_seed": [
+      {
+        "seed": 0,
+        "accuracy": 0.7466666666666667,
+        "macro_f1": 0.7140404468327053,
+        "num_features_used": 2,
+        "selected_features": [
+          "Ia",
+          "Ic"
+        ],
+        "hyperparameters": {
+          "C": 35.18509088281435
+        },
+        "best_fitness": 0.6996988481840571
+      },
+      {
+        "seed": 1,
+        "accuracy": 0.7466666666666667,
+        "macro_f1": 0.7140404468327053,
+        "num_features_used": 2,
+        "selected_features": [
+          "Ia",
+          "Ic"
+        ],
+        "hyperparameters": {
+          "C": 14.521313218288673
+        },
+        "best_fitness": 0.6996988481840571
+      },
+      {
+        "seed": 2,
+        "accuracy": 0.7466666666666667,
+        "macro_f1": 0.7140404468327053,
+        "num_features_used": 2,
+        "selected_features": [
+          "Ia",
+          "Ic"
+        ],
+        "hyperparameters": {
+          "C": 47.030419828296566
+        },
+        "best_fitness": 0.6996988481840571
+      },
+      {
+        "seed": 3,
+        "accuracy": 0.7466666666666667,
+        "macro_f1": 0.7140404468327053,
+        "num_features_used": 2,
+        "selected_features": [
+          "Ia",
+          "Ic"
+        ],
+        "hyperparameters": {
+          "C": 14.477469603060092
+        },
+        "best_fitness": 0.6996988481840571
+      },
+      {
+        "seed": 4,
+        "accuracy": 0.7466666666666667,
+        "macro_f1": 0.7140404468327053,
+        "num_features_used": 2,
+        "selected_features": [
+          "Ia",
+          "Ic"
+        ],
+        "hyperparameters": {
+          "C": 38.691868341828275
+        },
+        "best_fitness": 0.6996988481840571
+      }
+    ],
+    "accuracy_mean": 0.7466666666666667,
+    "accuracy_std": 0.0,
+    "macro_f1_mean": 0.7140404468327053,
+    "macro_f1_std": 0.0,
+    "num_features_mean": 2.0,
+    "num_features_std": 0.0,
+    "selection_counts": {
+      "Ia": 5,
+      "Ib": 0,
+      "Ic": 5,
+      "Va": 0,
+      "Vb": 0,
+      "Vc": 0
+    }
+  },
+  "SVM": {
+    "per_seed": [
+      {
+        "seed": 0,
+        "accuracy": 0.9916666666666667,
+        "macro_f1": 0.9915994597519228,
+        "num_features_used": 2,
+        "selected_features": [
+          "Ia",
+          "Ib"
+        ],
+        "hyperparameters": {
+          "C": 39.90119189417601,
+          "gamma": 4.03448646204844
+        },
+        "best_fitness": 0.9732471800058939
+      },
+      {
+        "seed": 1,
+        "accuracy": 0.9916666666666667,
+        "macro_f1": 0.9915994597519228,
+        "num_features_used": 2,
+        "selected_features": [
+          "Ia",
+          "Ib"
+        ],
+        "hyperparameters": {
+          "C": 43.05183295405771,
+          "gamma": 4.709285563929306
+        },
+        "best_fitness": 0.9737524699996926
+      },
+      {
+        "seed": 2,
+        "accuracy": 0.9922222222222222,
+        "macro_f1": 0.9921602787456446,
+        "num_features_used": 2,
+        "selected_features": [
+          "Ia",
+          "Ib"
+        ],
+        "hyperparameters": {
+          "C": 17.75639059964258,
+          "gamma": 4.571202498620597
+        },
+        "best_fitness": 0.9722357128429326
+      },
+      {
+        "seed": 3,
+        "accuracy": 0.9922222222222222,
+        "macro_f1": 0.9921602787456446,
+        "num_features_used": 2,
+        "selected_features": [
+          "Ia",
+          "Ib"
+        ],
+        "hyperparameters": {
+          "C": 28.22705016133957,
+          "gamma": 3.160939458427048
+        },
+        "best_fitness": 0.9722357128429326
+      },
+      {
+        "seed": 4,
+        "accuracy": 0.9916666666666667,
+        "macro_f1": 0.9915994597519228,
+        "num_features_used": 2,
+        "selected_features": [
+          "Ia",
+          "Ib"
+        ],
+        "hyperparameters": {
+          "C": 44.79742967780001,
+          "gamma": 4.649645536120562
+        },
+        "best_fitness": 0.9737524699996926
+      }
+    ],
+    "accuracy_mean": 0.991888888888889,
+    "accuracy_std": 0.00027216552697589683,
+    "macro_f1_mean": 0.9918237873494116,
+    "macro_f1_std": 0.00027474407453592886,
+    "num_features_mean": 2.0,
+    "num_features_std": 0.0,
+    "selection_counts": {
+      "Ia": 5,
+      "Ib": 5,
+      "Ic": 0,
+      "Va": 0,
+      "Vb": 0,
+      "Vc": 0
+    }
+  },
+  "KNN": {
+    "per_seed": [
+      {
+        "seed": 0,
+        "accuracy": 0.9905555555555555,
+        "macro_f1": 0.9904903942104526,
+        "num_features_used": 2,
+        "selected_features": [
+          "Ia",
+          "Ib"
+        ],
+        "hyperparameters": {
+          "n_neighbors": 3
+        },
+        "best_fitness": 0.9717336567485838
+      },
+      {
+        "seed": 1,
+        "accuracy": 0.9905555555555555,
+        "macro_f1": 0.990485000660764,
+        "num_features_used": 2,
+        "selected_features": [
+          "Ia",
+          "Ib"
+        ],
+        "hyperparameters": {
+          "n_neighbors": 2
+        },
+        "best_fitness": 0.9722351167203905
+      },
+      {
+        "seed": 2,
+        "accuracy": 0.9905555555555555,
+        "macro_f1": 0.990485000660764,
+        "num_features_used": 2,
+        "selected_features": [
+          "Ia",
+          "Ib"
+        ],
+        "hyperparameters": {
+          "n_neighbors": 2
+        },
+        "best_fitness": 0.9722351167203905
+      },
+      {
+        "seed": 3,
+        "accuracy": 0.99,
+        "macro_f1": 0.9899337741760297,
+        "num_features_used": 2,
+        "selected_features": [
+          "Ia",
+          "Ib"
+        ],
+        "hyperparameters": {
+          "n_neighbors": 1
+        },
+        "best_fitness": 0.97023847306473
+      },
+      {
+        "seed": 4,
+        "accuracy": 0.9905555555555555,
+        "macro_f1": 0.990485000660764,
+        "num_features_used": 2,
+        "selected_features": [
+          "Ia",
+          "Ib"
+        ],
+        "hyperparameters": {
+          "n_neighbors": 2
+        },
+        "best_fitness": 0.9722351167203905
+      }
+    ],
+    "accuracy_mean": 0.9904444444444446,
+    "accuracy_std": 0.00022222222222221256,
+    "macro_f1_mean": 0.9903758340737548,
+    "macro_f1_std": 0.0002210398196048121,
+    "num_features_mean": 2.0,
+    "num_features_std": 0.0,
+    "selection_counts": {
+      "Ia": 5,
+      "Ib": 5,
+      "Ic": 0,
+      "Va": 0,
+      "Vb": 0,
+      "Vc": 0
+    }
+  },
+  "DecisionTree": {
+    "per_seed": [
+      {
+        "seed": 0,
+        "accuracy": 0.7888349514563107,
+        "macro_f1": 0.7911266595918678,
+        "num_features_used": 3,
+        "selected_features": [
+          "Ib",
+          "Ic",
+          "Vc"
+        ],
+        "hyperparameters": {
+          "max_depth": 21
+        },
+        "best_fitness": 0.7607741222783071
+      },
+      {
+        "seed": 1,
+        "accuracy": 0.7888349514563107,
+        "macro_f1": 0.7911266595918678,
+        "num_features_used": 3,
+        "selected_features": [
+          "Ib",
+          "Ic",
+          "Vc"
+        ],
+        "hyperparameters": {
+          "max_depth": 21
+        },
+        "best_fitness": 0.7607741222783071
+      },
+      {
+        "seed": 2,
+        "accuracy": 0.7888349514563107,
+        "macro_f1": 0.7911266595918678,
+        "num_features_used": 3,
+        "selected_features": [
+          "Ib",
+          "Ic",
+          "Vc"
+        ],
+        "hyperparameters": {
+          "max_depth": 21
+        },
+        "best_fitness": 0.7607741222783071
+      },
+      {
+        "seed": 3,
+        "accuracy": 0.7888349514563107,
+        "macro_f1": 0.7911266595918678,
+        "num_features_used": 3,
+        "selected_features": [
+          "Ib",
+          "Ic",
+          "Vc"
+        ],
+        "hyperparameters": {
+          "max_depth": 21
+        },
+        "best_fitness": 0.7607741222783071
+      },
+      {
+        "seed": 4,
+        "accuracy": 0.7973300970873787,
+        "macro_f1": 0.7991359353513328,
+        "num_features_used": 3,
+        "selected_features": [
+          "Ib",
+          "Ic",
+          "Vb"
+        ],
+        "hyperparameters": {
+          "max_depth": 20
+        },
+        "best_fitness": 0.7540446743167738
+      }
+    ],
+    "accuracy_mean": 0.7905339805825242,
+    "accuracy_std": 0.0033980582524272052,
+    "macro_f1_mean": 0.7927285147437608,
+    "macro_f1_std": 0.0032037103037859892,
+    "num_features_mean": 3.0,
+    "num_features_std": 0.0,
+    "selection_counts": {
+      "Ia": 0,
+      "Ib": 5,
+      "Ic": 5,
+      "Va": 0,
+      "Vb": 1,
+      "Vc": 4
+    }
+  },
+  "RandomForest": {
+    "per_seed": [
+      {
+        "seed": 0,
+        "accuracy": 0.8191747572815534,
+        "macro_f1": 0.8214064309999456,
+        "num_features_used": 4,
+        "selected_features": [
+          "Ia",
+          "Ib",
+          "Ic",
+          "Vb"
+        ],
+        "hyperparameters": {
+          "n_estimators": 73,
+          "max_depth": 24
+        },
+        "best_fitness": 0.7588152416184
+      },
+      {
+        "seed": 1,
+        "accuracy": 0.8009708737864077,
+        "macro_f1": 0.8032467588068961,
+        "num_features_used": 4,
+        "selected_features": [
+          "Ib",
+          "Ic",
+          "Va",
+          "Vc"
+        ],
+        "hyperparameters": {
+          "n_estimators": 147,
+          "max_depth": 20
+        },
+        "best_fitness": 0.7595801793516104
+      },
+      {
+        "seed": 2,
+        "accuracy": 0.8070388349514563,
+        "macro_f1": 0.8092948038584675,
+        "num_features_used": 4,
+        "selected_features": [
+          "Ib",
+          "Ic",
+          "Va",
+          "Vc"
+        ],
+        "hyperparameters": {
+          "n_estimators": 125,
+          "max_depth": 24
+        },
+        "best_fitness": 0.7606805154644539
+      },
+      {
+        "seed": 3,
+        "accuracy": 0.8009708737864077,
+        "macro_f1": 0.8033192808710007,
+        "num_features_used": 4,
+        "selected_features": [
+          "Ib",
+          "Ic",
+          "Va",
+          "Vc"
+        ],
+        "hyperparameters": {
+          "n_estimators": 107,
+          "max_depth": 22
+        },
+        "best_fitness": 0.7594633153062897
+      },
+      {
+        "seed": 4,
+        "accuracy": 0.7949029126213593,
+        "macro_f1": 0.7975553059924401,
+        "num_features_used": 4,
+        "selected_features": [
+          "Ib",
+          "Ic",
+          "Va",
+          "Vc"
+        ],
+        "hyperparameters": {
+          "n_estimators": 109,
+          "max_depth": 18
+        },
+        "best_fitness": 0.7603558771434604
+      }
+    ],
+    "accuracy_mean": 0.8046116504854368,
+    "accuracy_std": 0.008230982989229701,
+    "macro_f1_mean": 0.8069645161057499,
+    "macro_f1_std": 0.00811962857559269,
+    "num_features_mean": 4.0,
+    "num_features_std": 0.0,
+    "selection_counts": {
+      "Ia": 1,
+      "Ib": 5,
+      "Ic": 5,
+      "Va": 4,
+      "Vb": 1,
+      "Vc": 4
+    }
+  }
+}

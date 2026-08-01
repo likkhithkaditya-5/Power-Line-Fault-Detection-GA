@@ -1,0 +1,8 @@
+# ECE 569A -- Power Line Fault Detection with GA
+# Python 3.11 recommended
+
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+deap>=1.4
+matplotlib>=3.7
